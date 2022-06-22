@@ -34,10 +34,10 @@ module "s3-module-ch01" {
 }
 
 module "s3-module2-ch01" {
-  source         = "./modules/s3"
-  s3-bucket-name = "aws-s3-mtaquia-module2-ch01"
-  s3-region      = "ca-central-1"
-  s3-bucket-acl  = "private"
+  source               = "./modules/s3"
+  s3-bucket-name       = "aws-s3-mtaquia-module2-ch01"
+  s3-region            = "ca-central-1"
+  s3-bucket-acl        = "private"
   s3-bucket-versioning = "Enabled"
   s3-bucket-encrypt    = true
   s3-bucket-keyid      = "a5805a87-d915-45b6-b43f-a1a3104ae053"
