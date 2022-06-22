@@ -10,4 +10,4 @@ As new team member I have received the following challange with minimal requirem
 
 -----
 
-Modules Repo: Here we create the backend S3 for modules and workspacs and an example of creation S3 bucket using modules.
+Modules Repo: Here we create the backend S3 for modules and workspacs and 2 examples about creation S3 buckets using modules.
