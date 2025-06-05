@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+
 terraform {
   backend "s3" {
     bucket         = "aws-s3-mtaquia-backend-ch01"
